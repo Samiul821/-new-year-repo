@@ -98,15 +98,15 @@ header{
 }
 .midnight-description{
     width: 697px;
-height: 60px;
-color: rgba(255, 255, 255, 0.8);
-font-family: Inter;
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
-letter-spacing: 0%;
-text-align: left;
-margin-bottom: 48px;
+    height: 60px;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 48px;
 }
 .join-now{
     width: 103px;
@@ -164,7 +164,6 @@ margin-bottom: 48px;
 }
 /* forth section */
  #best-offer{
-    background-color: bisque;
     width: 1320px;
     height: 463px;
     margin: 50px auto 120px auto;
@@ -262,14 +261,32 @@ margin-bottom: 48px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 64px;
-    background-color: bisque;
     text-align: center;
     display: flex;
     justify-content: center;
 }
 .holiday-subtitle{
     color: rgb(7, 2, 17);
-font-family: Inter;
-font-size: 24px;
-font-weight: 500;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.holiday-title{
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    color: rgb(7, 2, 17);
+    margin-bottom: 28px;
+}
+.holiday{
+    color: #FF0000;
+}
+.holiday-description{
+    width: 1068px;
+    height: 96px;
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
 }
