@@ -164,6 +164,7 @@ margin-bottom: 48px;
 }
 /* forth section */
  #best-offer{
+    background-color: bisque;
     width: 1320px;
     height: 463px;
     margin: 50px auto 120px auto;
@@ -173,7 +174,6 @@ margin-bottom: 48px;
  }
  .section3-container{
     display: flex;
-    justify-content: center;
  }
  .best-offer-container{
     flex-direction: column;
@@ -217,12 +217,14 @@ margin-bottom: 48px;
     /* background: #FF0000; */
     margin-left: 70px;
  }
- 
+ .best-offer-container2{
+    margin-left: 118px;
+ }
 .title-container2{
     width: 276px;
     height: 170px;
-    margin-left: 118px;
-    margin-top: 116px;
+    margin-top: 44px;
+    
 }
 .best-title2{
     font-family: Inter;
@@ -230,15 +232,44 @@ margin-bottom: 48px;
     font-weight: 700;
     color: #FF0000;
     margin-bottom: 16px;
+    margin-top: 116px;
 }
 .best-description2{
     color: rgba(7, 2, 17, 0.6);
     font-family: Inter;
     font-size: 20px;
     font-weight: 400;
+    margin-bottom: 44px;
 
 }
-.box-container2{
-    margin-left: 118px;
-    margin-top: 43px;
+.box-container3{
+    width: 415px;
+    height: 415px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: 10px;
+    border: 15px solid #FF0000;
+    margin-left: 70px;
+}
+
+/* Holiday section */
+#holiday{
+    width: 1068px;
+    height: 260px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 64px;
+    background-color: bisque;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.holiday-subtitle{
+    color: rgb(7, 2, 17);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
 }
