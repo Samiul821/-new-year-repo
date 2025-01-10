@@ -363,3 +363,75 @@ margin-bottom: 22px;
 .photo-gallery:hover{
     box-shadow: 10px 10px 20px rgba(36, 36, 36, 0.5);
 }
+/* subscribe sectionn */
+#subscribe:hover{
+    box-shadow: 10px 10px 20px rgba(36, 36, 36, 0.5);
+}
+#subscribe{
+    width: 1320px;
+    height: 616px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    margin: 0 auto 120px auto;
+    transition: box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.subscribe-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.gruop-61{
+    margin-bottom: 40px;
+}
+.subscribe-title{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 22px;
+}
+.subscribe-description{
+    width: 896px;
+    height: 64px;
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+#subscribe .search{
+    display: flex;
+    align-items: center;
+    gap: 0;
+}
+#subscribe .search input{
+    border: none;
+    padding: 25px 0;
+    padding-left: 120px;
+    padding-right: 120px;
+    border-radius: 30px 0 0 30px;
+}
+#subscribe .search button{
+    border: none;
+    padding: 21px 0;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: rgb(255, 255, 255);
+    background-color: #FF0000;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 0 30px 30px 0;
+}
+input::placeholder{
+    color: rgba(7, 2, 17, 0.3);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+}
