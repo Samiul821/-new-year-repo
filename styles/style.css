@@ -256,7 +256,8 @@ header{
 
 /* Holiday section */
 #holiday{
-    width: 1068px;
+    /* background-color: bisque; */
+    width: 1320px;
     height: 260px;
     margin-left: auto;
     margin-right: auto;
@@ -264,6 +265,7 @@ header{
     text-align: center;
     display: flex;
     justify-content: center;
+
 }
 .holiday-subtitle{
     color: rgb(7, 2, 17);
@@ -290,3 +292,27 @@ header{
     font-size: 20px;
     font-weight: 500;
 }
+/* secton five */
+#discont{
+    /* background-color: bisque; */
+    width: 1320px;
+    height: 662.07px;
+    margin: auto auto 113px auto;
+    background-image: url(../images/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.discont-container{
+    display: flex;
+    justify-content: center;
+}
+.group-75{
+    width: 674px;
+    height: 577px;
+    margin-left: 60px;
+    margin-right: 584px;
+    margin-bottom: 84px;
